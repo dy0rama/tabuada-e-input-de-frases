@@ -7,10 +7,11 @@ public class InputDeFrase {
         int opcaoUsuario;
 
         do {
-            System.out.println("Bem vindo ao nosso programa de input de frases. Caso deseje continuar, digite 1. Ou digite 2 para sair do programa: ");
+            System.out.println("Programa de input de frases. Caso deseje continuar, digite 1. Ou digite 2 para sair do programa: ");
 
             while (!sc.hasNextInt()){
-                System.out.println("Somente números nesse campo - 1(continuar) ou 2(sair):");
+                System.out.println("Opção inválida.");
+                System.out.println("Bem vindo ao nosso programa de input de frases. Caso deseje continuar, digite 1. Ou digite 2 para sair do programa: ");
                 sc.next();
             }
 
