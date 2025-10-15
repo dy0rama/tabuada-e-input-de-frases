@@ -25,6 +25,7 @@ public class InputDeFrase {
                 System.out.println("Obrigado por utilizar o nosso sistema, espero que tenha gostado.");
             }
         }while (opcaoUsuario != 2);
+        sc.close();
     }
 
 
