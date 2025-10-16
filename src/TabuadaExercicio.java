@@ -20,5 +20,6 @@ public class TabuadaExercicio {
         }else {
             System.out.println("Somente tabuadas do 1 ao 10");
         }
+        sc.close();
     }
 }
